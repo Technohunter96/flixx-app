@@ -161,7 +161,7 @@ ul {
   text-transform: uppercase;
 }
 
-.main-footer .container .social-links {
+.main-footer .container .social-links { 
   display: flex;
   font-size: 20px;
 }
