@@ -161,7 +161,7 @@ ul {
   text-transform: uppercase;
 }
 
-.main-footer .container .social-links { 
+.main-footer .container .social-links {
   display: flex;
   font-size: 20px;
 }
@@ -199,6 +199,7 @@ section h2 {
   font-size: 18px;
   background: var(--color-primary);
   display: flex;
+  height: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -238,8 +239,7 @@ section h2 {
   margin-top: 20px;
 }
 
-.details-bottom {
-}
+.details-bottom {}
 
 .details-bottom li {
   margin: 15px 0;
@@ -328,16 +328,15 @@ section h2 {
 
 /* Alert */
 .alert {
-  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.alert-success {
+.success {
   background: green;
 }
 
-.alert-error {
+.error {
   background: red;
 }
